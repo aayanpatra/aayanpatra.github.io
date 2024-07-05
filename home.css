@@ -1,0 +1,16 @@
+html {
+    background-color: #EFF1DB;
+}
+#frontLogo {
+    border: 0.5px #1e3050 solid;
+    border-radius: 50%;
+}
+#navBar {
+    background-color: #e1e4ce;
+}
+.navElements {
+    text-decoration: underline;
+}
+.navElements:hover {
+    text-decoration: none;
+}
