@@ -5,12 +5,13 @@ body {
     width: 100%;
     display: grid;
     background-color: #04445C;
-    grid-template-columns: 1fr 4fr 3fr;
+    grid-template-columns: 2fr 4fr 3fr;
 }
 .navLogo {
     border: 1px #BE8A62 solid;
     border-radius: 50%;
-    margin-top: 2px;
+    align-self: center;
+    height: 100px;
 }
 .navList {
     color: #05445E;
@@ -20,6 +21,7 @@ body {
     text-decoration: none;
     display: inline;
     margin-right: 10px;
+    font-size: 16px;
 }
 .social {
     display: grid;
@@ -28,5 +30,23 @@ body {
 .icons {
     justify-content: space-between;
     justify-self: center;
-    margin-top: 15%;
+    margin-top: 20%;
+    font-size: 33px;
 }
+@media only screen and (max-width: 1000px) {
+    .header {
+        height: 170px;
+    }
+    .navLogo {
+        height: 130px;
+    }
+    .navLinks {
+        font-size: 22px;
+    }
+    .icons {
+        font-size: 50px;
+    }
+    .social {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
