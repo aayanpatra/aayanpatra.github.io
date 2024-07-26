@@ -25,7 +25,7 @@ body {
     height: 100px;
     display: grid;
     background-color: #04445C;
-    grid-template-columns: 3fr 3fr 400px;
+    grid-template-columns: 3fr 3fr 3fr;
 }
 .navLogo {
     border: 1px #BE8A62 solid;
