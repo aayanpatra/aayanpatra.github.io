@@ -33,9 +33,3 @@ body {
     margin-top: 20%;
     font-size: 33px;
 }
-@media only screen and (max-width: 500px) {
-    .header {
-        height: 150px;
-    }
-
-  }
