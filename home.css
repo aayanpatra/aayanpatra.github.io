@@ -41,10 +41,13 @@ body {
     .navLogo {
         height: 145px;
     }
+    .social {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .icons {
         font-size: 50px;
     }
     .navLinks {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
