@@ -1,14 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
 
+@media only screen and (min-width: 10px) and (max-width: 500px) {
+    .header {
+        height: 160px;
+    }
+    .navLogo {
+        height: 145px;
+    }
+    .social {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .icons {
+        font-size: 55px;
+    }
+    .navLinks {
+        font-size: 25px;
+    }
+}
+
 body {
     background-color: #F8CF2C;
 }
 .header {
-    width: 100%;
     height: 100px;
     display: grid;
     background-color: #04445C;
-    grid-template-columns: 3fr 4fr 3fr;
+    grid-template-columns: 3fr 3fr 400px;
 }
 .navLogo {
     border: 1px #BE8A62 solid;
@@ -31,34 +48,17 @@ body {
 }
 .navLinks:hover {
     color: #b1aca3;
-    text-shadow: 3px 2px #7d7a74;
+    text-shadow: 2px 2px #7d7a74;
     transition-timing-function: ease;
     transition-duration: 500ms;
 }
 .social {
     display: grid;
-    grid-template-columns: 50px 50px 50px;
+    grid-template-columns: 60px 60px 60px;
 }
 .icons {
     justify-content: space-between;
     justify-self: center;
     margin-top: 20%;
     font-size: 33px;
-}
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
-    .header {
-        height: 160px;
-    }
-    .navLogo {
-        height: 145px;
-    }
-    .social {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .icons {
-        font-size: 55px;
-    }
-    .navLinks {
-        font-size: 25px;
-    }
 }
