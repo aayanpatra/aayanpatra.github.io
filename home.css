@@ -1,18 +1,32 @@
-html {
-    background-color: #EFF1DB;
+body {
+    background-color: #F8CF2C;
 }
-header {
+.header {
+    width: 100%;
     display: grid;
-    grid-template-areas: "icons logo links";
+    background-color: #04445C;
+    grid-template-columns: 1fr 4fr 3fr;
 }
 .navLogo {
-    border: 0.5px #EFF1DB solid;
+    border: 1px #BE8A62 solid;
     border-radius: 50%;
-    grid-area: logo;
+    margin-top: 2px;
+}
+.navList {
+    color: #05445E;
 }
 .navLinks {
-    grid-area: links;
+    color: #E3DDD1;
+    text-decoration: none;
+    display: inline;
+    margin-right: 10px;
+}
+.social {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
 }
 .icons {
-    grid-area: icons;
+    justify-content: space-between;
+    justify-self: center;
+    margin-top: 15%;
 }
