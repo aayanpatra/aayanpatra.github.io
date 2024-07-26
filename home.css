@@ -35,18 +35,7 @@ body {
 }
 @media only screen and (max-width: 500px) {
     .header {
-        height: 170px;
+        height: 150px;
     }
-    .navLogo {
-        height: 130px;
-    }
-    .navLinks {
-        font-size: 22px;
-    }
-    .icons {
-        font-size: 50px;
-    }
-    .social {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+
   }
