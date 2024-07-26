@@ -12,7 +12,7 @@ body {
     border: 1px #BE8A62 solid;
     border-radius: 50%;
     align-self: center;
-    height: 100px;
+    height: 93px;
 }
 .navList {
     color: #05445E;
@@ -34,7 +34,7 @@ body {
     margin-top: 20%;
     font-size: 33px;
 }
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
     .header {
         height: 160px;
     }
