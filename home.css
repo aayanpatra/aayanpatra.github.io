@@ -1,64 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
 
-@media only screen and (min-width: 10px) and (max-width: 500px) {
-    .header {
-        height: 160px;
-    }
-    .navLogo {
-        height: 145px;
-    }
-    .social {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .icons {
-        font-size: 55px;
-    }
-    .navLinks {
-        font-size: 25px;
-    }
-}
 
 body {
     background-color: #F8CF2C;
 }
-.header {
-    height: 100px;
-    display: grid;
+header {
     background-color: #04445C;
-    grid-template-columns: 3fr 3fr 3fr;
+    display: flex;
+    justify-content: center;
 }
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
 .navLogo {
-    border: 1px #BE8A62 solid;
+    height: 100px;
+    border: 1px solid #04445C;
     border-radius: 50%;
-    height: 94px;
-    align-items: center;
+    justify-self: center;
 }
 .navList {
-    display: inline flex;
-    list-style-type: none;
+    min-width: 280px;
+    margin-top: 5%;
 }
 .navLinks {
     color: #E3DDD1;
-    text-decoration: none;
-    font-size: 27px;
-    margin-left: 10px;
     font-family: "Zain", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
+    font-size: 26px;
 }
 .navLinks:hover {
-    color: #b1aca3;
-    text-shadow: 2px 2px #7d7a74;
-    transition-timing-function: ease;
-    transition-duration: 500ms;
+    color: #b0aba2;
+    transition-duration: 250ms;
+    text-shadow: 4px 2px #7d7973;
 }
 .social {
-    display: grid;
-    grid-template-columns: 60px 60px 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    min-width: 260px;
 }
 .icons {
-    justify-content: space-between;
-    justify-self: center;
-    margin-top: 20%;
-    font-size: 33px;
+    font-size: 35px;
+    color: #E3DDD1;
+}
+.icons#instagram:hover {
+    background-image: linear-gradient(240deg, #b00af0, #f32853, #ffb800);
+    background-size: 100%;
+    background-clip: text;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    color: transparent;
+    transition-duration: 250ms;
+}
+.icons#youtube:hover {
+    color: #f60002;
+    transition-duration: 250ms;
+
+}
+.icons#linkedin:hover {
+    color: #2864aa;
+    transition-duration: 250ms;
+}
+@media only screen and (orientation: portrait) {
+    .navLogo {
+        height: 160px;
+    }
+    .icons {
+        font-size: 50px;
+    }
+    .navLinks {
+        font-size: 35px;
+    }
 }
