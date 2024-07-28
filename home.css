@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
 
-
 body {
     background-color: #F8CF2C;
 }
@@ -67,6 +66,8 @@ header {
     color: #2864aa;
     transition-duration: 250ms;
 }
+
+
 @media only screen and (orientation: portrait) {
     .navLogo {
         height: 160px;
